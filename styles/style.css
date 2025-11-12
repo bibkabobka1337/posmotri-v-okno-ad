@@ -60,7 +60,6 @@ ol {
   white-space: nowrap;
 }
 
-/* Шаг 1: Лейаут */
 .page {
   display: flex;
   justify-content: center;
@@ -102,7 +101,6 @@ ol {
   overflow-x: hidden;
 }
 
-/* Шаг 2: Уточнение размеров */
 .result__video-container {
   position: relative;
   inline-size: 711px;
@@ -138,15 +136,14 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
-  padding-inline-end: 2px;
+  padding-right: 2px;
 }
 
-/* Шаг 3: Стили текстов */
 .search-form__fieldset-title {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  margin-block-end: 5px;
+  margin-bottom: 5px;
 }
 
 .title {
@@ -174,11 +171,11 @@ ol {
   font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
-  margin-block-end: 6px;
+  margin-bottom: 6px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-inline-size: 200px;
+  max-width: 200px;
 }
 
 .content__video-card-description {
@@ -192,7 +189,6 @@ ol {
   -webkit-box-orient: vertical;
 }
 
-/* Шаг 4: Стили форм */
 .search-form__fieldset {
   border: none;
   flex-grow: 1;
@@ -260,7 +256,6 @@ ol {
   opacity: 1;
 }
 
-/* Шаг 5: Стили кнопок */
 .button {
   border: 1px solid #fff;
   background-color: transparent;
@@ -301,7 +296,6 @@ ol {
   block-size: 34px;
 }
 
-/* Шаг 6: Состояния карточек */
 .content__list-item {
   padding-inline: 2px;
 }
@@ -326,7 +320,6 @@ ol {
   outline: 1px solid #fff;
 }
 
-/* Шаг 7: Курсоры */
 .button,
 .content__card-link,
 .search-form__label,
@@ -334,7 +327,6 @@ ol {
   cursor: pointer;
 }
 
-/* Шаг 8: Позиционирование прелоадеров */
 .result__video-container,
 .content__list-container {
   position: relative;
